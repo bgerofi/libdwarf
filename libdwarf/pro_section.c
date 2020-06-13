@@ -3070,7 +3070,7 @@ _dwarf_pro_generate_debuginfo(Dwarf_P_Debug dbg,
         char *space = 0;
         int cres = 0;
         char buff1[ENCODE_SPACE_NEEDED];
-        int i = 0;
+        /* int i = 0; */
 
         curdie->di_offset = die_off;
 
